@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir cm_submit
+pdfseparate ${1} cm_submit/%d.pdf
+
